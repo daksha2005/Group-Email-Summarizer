@@ -1,0 +1,15 @@
+# Ignore huge data files that will block GitHub (100MB limit)
+data/emails.csv
+data/email_*.csv
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
