@@ -10,7 +10,7 @@
 | :--- | :--- |
 | **1. Architecture Note** | Full mapping and logic is housed in **[ARCHITECTURE.md](./ARCHITECTURE.md)** |
 | **2. Public Dashboard Link** | [👉 **Live Streamlit App** 👈](https://group-email-summarizer-j7fuvqzryd9tdrgkzcrzlv.streamlit.app/)|
-| **3. Demo Video** | **[👉 LINK TO YOUTUBE/LOOM DEMO (Replace with your link) 👈]()** |
+| **3. Demo Video** | [👉 **Link to Demo** 👈](https://drive.google.com/file/d/1-rC5tNN0yx7f93pVJYaOjLSkf61CQzc9/view?usp=sharing) |
 | **4. Working Code** | Code is contained in this repository. Run `streamlit run streamlit_app.py` or explore the [Jupyter Notebook](./email_summarizer_notebook.ipynb) |
 | **5. Computed Table Data** | **[👉 View the final CSV Table here natively](./data/results.csv)**. Alternatively, download the **[👉 Excel Dashboard (email_dashboard.xlsx)](./email_dashboard.xlsx)** to view the exact same data with advanced spreadsheet styling! |
 
