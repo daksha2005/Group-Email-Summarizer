@@ -10,8 +10,9 @@
 | :--- | :--- |
 | **1. Architecture Note** | Full mapping and logic is housed in **[ARCHITECTURE.md](./ARCHITECTURE.md)** |
 | **2. Public Dashboard Link** | [👉 **Live Streamlit App** 👈](https://group-email-summarizer-j7fuvqzryd9tdrgkzcrzlv.streamlit.app/)|
-| **3. Demo Video** | [👉 **Direct GitHub Video** 👈](https://github.com/daksha2005/Group-Email-Summarizer/blob/main/Group%20Email%20Summarizer.mp4) |
-|                   | [👉 **Google Drive Demo** 👈](https://drive.google.com/file/d/1IizsskffZ8N8K9d-NpYmnCGuzD4aJYui/view?usp=sharing) |
+| **3. Demo Video** | [👉 **Google Drive Demo** 👈](https://drive.google.com/file/d/1IizsskffZ8N8K9d-NpYmnCGuzD4aJYui/view?usp=sharing) |
+|                   | [👉 **Direct GitHub Video** 👈](https://github.com/daksha2005/Group-Email-Summarizer/blob/main/Group%20Email%20Summarizer.mp4) |
+
 | **4. Working Code** | Code is contained in this repository. Run `streamlit run streamlit_app.py` or explore the [Jupyter Notebook](./email_summarizer_notebook.ipynb) |
 | **5. Computed Table Data** | **[👉 View the final CSV Table here natively](./data/results.csv)**. Alternatively, download the **[👉 Excel Dashboard (email_dashboard.xlsx)](./email_dashboard.xlsx)** to view the exact same data with advanced spreadsheet styling! |
 
