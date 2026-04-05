@@ -9,7 +9,8 @@
 | Deliverable | Verification / Link |
 | :--- | :--- |
 | **1. Architecture Note** | Full mapping and logic is housed in **[ARCHITECTURE.md](./ARCHITECTURE.md)** |
-| **2. Public Dashboard Link** | **[👉 LINK TO LIVE STREAMLIT APP (https://group-email-summarizer-j7fuvqzryd9tdrgkzcrzlv.streamlit.app/)👈]()** |
+| **2. Public Dashboard Link** | [👉 **Live Streamlit App** 👈](https://group-email-summarizer-j7fuvqzryd9tdrgkzcrzlv.streamlit.app/)
+ |
 | **3. Demo Video** | **[👉 LINK TO YOUTUBE/LOOM DEMO (Replace with your link) 👈]()** |
 | **4. Working Code** | Code is contained in this repository. Run `streamlit run streamlit_app.py` or explore the [Jupyter Notebook](./email_summarizer_notebook.ipynb) |
 
