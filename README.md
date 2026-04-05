@@ -1,6 +1,6 @@
-# 📧 AI-Powered Group Email Synthesiser (Enron Dataset)
+# 📧 Group Email Summarizer (Task Option 2)
 
-> Turn hundreds of chaotic, unstructured email threads into a sharp, structured intelligence dashboard — **zero API keys, runs fully locally with 100% data privacy.**
+> A single dashboard to make sense of various conversations in an email group, including Tasks, Followups, Threads, and Topic Insights. Uses the **Enron Email Dataset**.
 
 ---
 
@@ -15,21 +15,18 @@
 
 ---
 
-## 🛑 The Problem Statement
-In modern corporate environments, professionals waste countless hours scrolling through massive, unorganised email chains simply to answer basic questions:
-* *What is the conclusion of this discussion?*
-* *Are there action items required?*
-* *Is this conversation escalating negatively?*
-* *Who is supposed to execute the next step?*
+## 🛑 The Problem Statement (Task Option 2)
+In a company, there are many email groups running parallel threads. The task is to create a single dashboard to make sense of the various conversations in that group, specifically handling:
+*   Reading the incoming emails of an email group
+*   Creating a summary of the email threads
+*   Creating a structured table containing: **Email Thread, Key Topic, Action Items, Owner**
 
 **The Solution:**
-This application ingests unstructured data dumps (utilising the 1.4GB Kaggle Enron Dataset), mathematically groups conversations by subject lineage, and pushes them through a completely local, open-source Machine Learning pipeline to extract the answers. 
+This application seamlessly fulfills all requirements. It ingests unstructured email group dumps (from the Enron Dataset), mathematically groups parallel threads, and pushes them through a completely local, open-source Machine Learning pipeline to extract the exact requested columns into a unified dashboard.
 
 ---
 
-## 📂 Project Structure & File Dictionary
-
-This codebase follows professional Python standards, segregating the UI from the engineering pipelines.
+## 📂 Project Structure
 
 ```text
 email_summarizer/
@@ -39,30 +36,27 @@ email_summarizer/
 ├── email_summarizer_notebook.ipynb  ← Research: Jupyter Notebook walkthrough
 ├── requirements.txt                 ← Dependencies
 ├── README.md                        ← You are here
-├── ARCHITECTURE.md                  ← Detailed explanation of the NLP engine
+├── ARCHITECTURE.md                  ← Detailed explanation of the NLP tools used
 ├── DEMO_SCRIPT.md                   ← Guideline for recording the demo video
 │
 ├── utils/                           ← Core Logic Modules
-│   ├── __init__.py
-│   ├── email_loader.py              ← Ingests CSVs, isolates headers, creates threads
-│   ├── nlp_engine.py                ← Houses the heavy lifting: Sumy, KeyBERT, VADER, SpaCy
+│   ├── email_loader.py              ← Reads incoming emails of a group & creates threads
+│   ├── nlp_engine.py                ← Houses the intelligence: Sumy, KeyBERT, VADER, SpaCy
 │   └── excel_exporter.py            ← Builder for the formatted Excel analytical reports
 │
 └── data/                            ← Database Folder
-    ├── enron_sample_1.csv           ← Processable 50-email slice from Kaggle
-    ├── enron_sample_2.csv           ← Processable 50-email slice from Kaggle
-    ├── enron_sample_3.csv           ← Processable 50-email slice from Kaggle
-    └── results.csv                  ← Export location of the final machine-readable data
+    ├── enron_sample_1.csv           ← Processable 50-email dataset directly from Enron
+    └── results.csv                  ← The final machine-readable table mapped to requirements
 ```
 
 ---
 
-## ⚡ Key Features
-1. **Extractive Summarisation**: Condenses 50-email threads into 3-sentence overviews.
-2. **Sentiment Radar**: Flags "Urgent" or "Negative" operations.
-3. **Owner Identification**: Autonomously finds the most relevant person associated with tasks using NLP Named Entity Recognition.
-4. **Action Item Tracking**: Deploys Regex intelligence to surface explicit requests and mandates.
-5. **No-Setup Demonstration**: The web dashboard comes pre-loaded with 'Real Enron Snippets', allowing managers or recruiters to instantly test the system's live capabilities without needing to upload huge files.
+## ⚡ Task Features & Allowed Tools Used
+1. **Create summary of threads**: Built using `sumy` (Extractive NLP Summarisation).
+2. **Key Topic**: Extracted using the advanced AI library `KeyBERT`.
+3. **Action Items & Tasks**: Isolated using complex continuous Regular Expressions (Regex).
+4. **Owner**: Handled by `spaCy` Named Entity Recognition (NER) to find the primary responsible person.
+5. **Single Dashboard**: The Streamlit Web Application provides an interactive space to view all components at once without needing an API.
 
 ---
 
@@ -78,15 +72,8 @@ python -m spacy download en_core_web_sm
 ```
 
 ### 2. Launching the App
-The primary interface is the Streamlit Web Application. Run the following command in your terminal:
+The primary interface is the Streamlit Dashboard. Run the following command in your terminal:
 ```bash
 streamlit run streamlit_app.py
 ```
 *Navigate to `http://localhost:8501` to view your data.*
-
-### 3. Usage & Environments
-- **Streamlit Demo Mode**: Navigate the sidebar to test out "Demo Scenarios" or live "Real Enron Snippets".
-- **Jupyter Build Process**: If you wish to see how the code is structured block-by-block, open `email_summarizer_notebook.ipynb`.
-
----
-*Developed as an AI-powered architecture assessment.*

@@ -1,6 +1,6 @@
 # 🏗️ System Architecture & NLP Technical Note
 
-This document outlines the end-to-end architecture and NLP flow for the **Group Email Intelligence Synthesiser**. The system is built to ingest massive, unstructured email dumps and apply lightweight, locally-running Machine Learning to distil business insights.
+This document outlines the end-to-end architecture and NLP flow for the **Group Email Summarizer**. The system is built to ingest massive, unstructured email dumps and apply lightweight, locally-running Machine Learning to distil business insights.
 
 ## System Diagram
 

@@ -14,7 +14,7 @@ This script is highly structured to be exactly ~3 minutes long. It balances tech
 *Action: Start recording with your webcam on, looking directly into the camera or the Streamlit Dashboard.*
 
 **Dialogue:**
-"Hi everyone. Today I'm demonstrating the AI-Powered Group Email Synthesiser. The core problem this system solves is the massive operational bloat caused by long, unstructured email chains in corporate environments. Professionals waste hours manually scrolling through endless replies just to find out what happened, what the action items are, and who is responsible for them."
+"Hi everyone. Today I'm demonstrating the Group Email Summarizer. The core problem this system solves is the massive operational bloat caused by long, unstructured email chains in corporate environments. Professionals waste hours manually scrolling through endless replies just to find out what happened, what the action items are, and who is responsible for them."
 
 ## 0:30 - 0:50 | The Architecture Setup
 *Action: Switch your screen to show the `ARCHITECTURE.md` file (Specifically the system diagram).*
