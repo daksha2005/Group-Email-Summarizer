@@ -12,7 +12,7 @@
 | **2. Public Dashboard Link** | [👉 **Live Streamlit App** 👈](https://group-email-summarizer-j7fuvqzryd9tdrgkzcrzlv.streamlit.app/)|
 | **3. Demo Video** | **[👉 LINK TO YOUTUBE/LOOM DEMO (Replace with your link) 👈]()** |
 | **4. Working Code** | Code is contained in this repository. Run `streamlit run streamlit_app.py` or explore the [Jupyter Notebook](./email_summarizer_notebook.ipynb) |
-| **5. Machine-Readable Table Data** | **[👉 View the final computed DataFrame Table here (results.csv)](./data/results.csv)** *(GitHub will natively render this beautifully!)* |
+| **5. Computed Table Data** | **[👉 View the final CSV Table here natively](./data/results.csv)** (GitHub renders this visually). Alternatively, download the **[👉 Excel Dashboard (email_dashboard.xlsx)](./email_dashboard.xlsx)** to view the exact same data with advanced spreadsheet styling! |
 
 ---
 
