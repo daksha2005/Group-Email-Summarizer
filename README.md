@@ -37,7 +37,6 @@ email_summarizer/
 ├── requirements.txt                 ← Dependencies
 ├── README.md                        ← You are here
 ├── ARCHITECTURE.md                  ← Detailed explanation of the NLP tools used
-├── DEMO_SCRIPT.md                   ← Guideline for recording the demo video
 │
 ├── utils/                           ← Core Logic Modules
 │   ├── email_loader.py              ← Reads incoming emails of a group & creates threads
